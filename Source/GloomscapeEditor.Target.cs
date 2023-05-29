@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 public class GloomscapeEditorTarget : TargetRules
 {
-	public GloomscapeEditorTarget(TargetInfo Target) : base(Target)
+	public GloomscapeEditorTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;

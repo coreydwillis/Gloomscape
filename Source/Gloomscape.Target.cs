@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 public class GloomscapeTarget : TargetRules
 {
-	public GloomscapeTarget(TargetInfo Target) : base(Target)
+	public GloomscapeTarget( TargetInfo Target) : base(Target)
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
